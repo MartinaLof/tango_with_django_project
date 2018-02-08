@@ -1,6 +1,8 @@
 from django.conf.urls import url
 from rango import views
 
+app_name = 'rango'
+
 # Imports the relevant Django machinery for URL mappings and the
 #views module from rango. This allows us to call the function url
 #and point to the index view for the mapping in urlpatterns
